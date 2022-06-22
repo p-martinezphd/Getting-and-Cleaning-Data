@@ -58,3 +58,5 @@ system.time(sapply(split(DT$pwgtp15,DT$SEX),mean))
 system.time(mean(DT$pwgtp15,by=DT$SEX))
 system.time(tapply(DT$pwgtp15,DT$SEX,mean))
 system.time(rowMeans(DT)[DT$SEX==1])+system.time(rowMeans(DT)[DT$SEX==2])
+
+#test
